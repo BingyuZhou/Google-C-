@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : artillery.cpp
+// Author      : Bingyu
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+using namespace std;
+
+void startup(){
+	cout << "Welcome to Artillery!" << endl;
+	cout << "You are in the middle of a war and being charged by thousands of enemies." <<
+			"You have one cannon, which you can shoot at any angle." <<
+			"You only have 10 cannonballs for this target.." <<  "Let's begin..." << endl;
+}
+
+int Fire(){
+	int vo = 200; //initial velocity (ft/sec)
+	double g = 32.2; //gravity
+
+	Dis = rand() % 100 + v0;
+
+
+}
+
+int main() {
+	int killed;
+	char done;
+
+	startup();
+	killed = 0;
+	do{
+		killed = killed + Fire();
+		cout << "I see another one, care to shoot again? (Y/N)" <<endl;
+		cin >> done;
+	}while (done != 'n');
+
+	cout << "you killed " << killed << "of the enemy" << endl;
+	return 0;
+}

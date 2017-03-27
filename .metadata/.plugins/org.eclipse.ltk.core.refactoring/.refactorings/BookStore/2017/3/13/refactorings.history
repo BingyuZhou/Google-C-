@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;BookStore/BoolStore.cpp&apos; to &apos;BookStore.cpp&apos;" description="Rename resource &apos;BoolStore.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="BoolStore.cpp" name="BookStore.cpp" stamp="1490532411063" updateReferences="true"/>
+</session>

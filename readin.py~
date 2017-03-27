@@ -1,0 +1,14 @@
+import numpy as np
+from math import sqrt
+
+phy = np.array([15,12,8,8,7,7,7,6,5,3])
+his = np.array([10,25,17,11,13,17,20,13,9,15])
+
+phy_m = np.mean(phy)
+his_m = np.mean(his)
+
+mat_phy = phy - phy_m;
+mat_his = his - his_m;
+
+r =mat_phy.dot(mat_his) / sqrt(mat_phy.dot(mat_phy)) / sqrt(mat_his.dot(mat_his))
+print r

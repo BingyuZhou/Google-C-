@@ -1,0 +1,81 @@
+/*
+ * database.h
+ *
+ *  Created on: Mar 26, 2017
+ *      Author: bingyu
+ */
+
+#ifndef DATABASE_H_
+#define DATABASE_H_
+
+// database.h, Maggie Johnson
+// Description: Class for a database of Composer records.
+#include  <iostream>
+#include <algorithm>
+#include "Composer.h"
+
+// Our database holds 100 composers, and no more.
+const int kMaxComposers = 100;
+
+class Database {
+ public:
+  Database(){
+	  next_slot_ = 0;
+  }
+  ~Database(){}
+
+  // Add a new composer using operations in the Composer class.
+  // For convenience, we return a reference (pointer) to the new record.
+  Composer& AddComposer(string in_first_name, string in_last_name,
+                        string in_genre, int in_yob, string in_fact){
+	  Composer person;
+	  person.set_first_name(in_first_name);
+	  person.set_last_name(in_last_name);
+	  person.set_composer_genre(in_genre);
+	  person.set_composer_yob(in_yob);
+	  person.set_fact(in_fact);
+
+	  composers_[next_slot_] = person;
+	  next_slot_++;
+
+	  return composers_[next_slot_-1];
+
+  }
+  // Search for a composer based on last name. Return a reference to the
+  // found record.
+  Composer& GetComposer(string in_last_name){
+	  int i;
+	  for (i = 0; i < next_slot_; i++){
+		  if (composers_[i].last_name().compare(in_last_name) == 0){
+			  composers_[i].Display();
+			  break;
+		  }
+	  }
+	  return composers_[i];
+  }
+  // Display all composers in the database.
+  void DisplayAll(){
+	  for (int i = 0; i < next_slot_;i++){
+		  composers_[i].Display();
+	  }
+  }
+  // Sort database records by rank and then display all.
+  bool CmpRank(const Composer& a, const Composer& b) const{ return a.ranking() < b.ranking();}
+  void DisplayByRank(){
+
+	  sort(composers_, composers_+ next_slot_-1, CmpRank);
+	  DisplayAll();
+  }
+
+ private:
+  // Store the individual records in an array.
+  Composer composers_[kMaxComposers];
+  // Track the next slot in the array to place a new record.
+  int next_slot_;
+};
+
+
+
+#endif  DATABASE_H_
+
+

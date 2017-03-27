@@ -1,0 +1,27 @@
+/*
+ * BoolStore.cpp
+ *
+ *  Created on: Mar 26, 2017
+ *      Author: bingyu
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(){
+	string code;
+	double price;
+	int flag = 1;
+	int num_hand;
+
+	do{
+		cout << "Bood code: "; cin >> code;
+		cout << "Single price: "; cin >> price;
+		cout << "Num on hand: "; cin >> num_hand;
+	}while (flag == 1);
+
+}
+
+

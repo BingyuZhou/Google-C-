@@ -1,0 +1,1679 @@
+23:24:34 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:37:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:20,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:71:44:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:26:13 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:26:13 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:37:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:20,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:71:44:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:26:14 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:26:14 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:26:14 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:26:14 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:30:54 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:37:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:20,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:71:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:31:04 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:37:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:20,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:71:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:36:22 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:36:23 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:36:23 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:36:23 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:36:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:36:23 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h: In member function ‘bool Composer::operator<(const Composer&)’:
+../src/Composer.h:90:79: error: passing ‘const Composer’ as ‘this’ argument of ‘int Composer::ranking()’ discards qualifiers [-fpermissive]
+   bool operator < (const Composer& oth){ return this->ranking() < oth.ranking();}
+                                                                               ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:47:36 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:47:36 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:48:09 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:48:10 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:48:10 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:48:10 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:48:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:48:10 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:50:05 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:50:05 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:50:05 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:50:05 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:50:05 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:50:05 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:52:31 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:52:31 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h: In constructor ‘Composer::Composer()’:
+../src/Composer.h:23:3: error: uninitialized member ‘Composer::ranking_’ with ‘const’ type ‘const int’ [-fpermissive]
+   Composer(){
+   ^
+../src/Composer.h:24:13: error: assignment of read-only member ‘Composer::ranking_’
+    ranking_ = kDefaultRanking;
+             ^
+../src/Composer.h: In member function ‘void Composer::set_ranking(int)’:
+../src/Composer.h:58:13: error: assignment of read-only member ‘Composer::ranking_’
+    ranking_ = in_ranking;
+             ^
+../src/Composer.h: In member function ‘void Composer::Promote(int)’:
+../src/Composer.h:73:13: error: assignment of read-only member ‘Composer::ranking_’
+    ranking_ = ranking_ - increment;
+             ^
+../src/Composer.h: In member function ‘void Composer::Demote(int)’:
+../src/Composer.h:77:13: error: assignment of read-only member ‘Composer::ranking_’
+    ranking_ = ranking_ + decrement;
+             ^
+../src/Composer.h: In member function ‘Composer& Composer::operator=(const Composer&)’:
+../src/Composer.h:20:7: error: non-static const member ‘const int Composer::ranking_’, can’t use default assignment operator
+ class Composer {
+       ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:38:27: note: synthesized method ‘Composer& Composer::operator=(const Composer&)’ first required here 
+    composers_[next_slot_] = person;
+                           ^
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:52:31 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:52:31 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:52:31 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:52:31 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:52:57 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:52:57 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:52:57 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:52:57 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:52:58 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:52:58 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:55:05 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:55:05 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+23:55:05 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:55:06 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:55:06 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:55:06 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:55:22 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:55:22 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+23:55:22 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:55:22 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:55:23 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:55:23 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:55:32 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:55:32 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:55:32 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:55:32 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:55:32 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:55:32 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:57:23 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:57:24 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:10:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+23:57:24 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:57:24 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:57:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:57:24 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:57:33 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+23:57:33 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+23:57:34 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+23:57:34 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+23:57:34 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+23:57:34 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+23:57:45 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+00:00:36 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+00:00:36 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+00:00:36 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+00:00:36 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+00:00:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+00:00:36 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+00:00:42 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+18:50:29 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+18:53:51 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+18:53:51 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h: In member function ‘bool Composer::operator<(const Composer&) const’:
+../src/Composer.h:90:67: error: passing ‘const Composer’ as ‘this’ argument of ‘int Composer::ranking()’ discards qualifiers [-fpermissive]
+   bool operator < (const Composer& b) const{ return this->ranking() < b.ranking();}
+                                                                   ^
+../src/Composer.h:90:81: error: passing ‘const Composer’ as ‘this’ argument of ‘int Composer::ranking()’ discards qualifiers [-fpermissive]
+   bool operator < (const Composer& b) const{ return this->ranking() < b.ranking();}
+                                                                                 ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+make: *** [src/test_database.o] Error 1
+18:53:51 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+18:53:52 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+18:53:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+18:53:52 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+19:03:06 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+19:03:06 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+19:03:06 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+19:03:07 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+19:03:07 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:03:07 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+19:05:48 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+19:05:48 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/test_database.cpp:40:0:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+19:05:48 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+19:05:49 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+19:05:49 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+19:05:49 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+19:05:54 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+20:28:03 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+20:28:04 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:31:13: warning: reference to local variable ‘person’ returned [-Wreturn-local-addr]
+    Composer person;
+             ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+20:28:04 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+20:28:04 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+20:28:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:28:04 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+20:33:21 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+20:33:21 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘Composer& Database::AddComposer(std::string, std::string, std::string, int, std::string)’:
+../src/Database.h:41:22: error: ‘next_slot’ was not declared in this scope
+    return composers_[next_slot-1];
+                      ^
+../src/Database.h:43:3: warning: control reaches end of non-void function [-Wreturn-type]
+   }
+   ^
+make: *** [src/test_database.o] Error 1
+20:33:21 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+20:33:21 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+20:33:22 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:33:22 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+20:33:35 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+20:33:35 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:10:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:10:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+20:33:35 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+20:33:35 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+20:33:35 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+20:33:35 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+20:33:44 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+21:00:04 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:00:04 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+../src/test_database.cpp:9:22: fatal error: Database.h: No such file or directory
+ #include <Database.h>
+                      ^
+compilation terminated.
+make: *** [src/test_database.o] Error 1
+21:00:04 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:00:04 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:00:04 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:00:04 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:00:20 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:00:20 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/test_database.cpp: In function ‘int main()’:
+../src/test_database.cpp:15:12: error: ‘composer’ declared as reference but not initialized
+  Composer& composer;
+            ^
+make: *** [src/test_database.o] Error 1
+21:00:21 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:00:21 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:00:21 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:00:21 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:01:16 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:01:16 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/test_database.cpp: In function ‘int main()’:
+../src/test_database.cpp:50:8: error: jump to case label [-fpermissive]
+   case 4 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& composer’
+    Composer& composer = myDB.GetComposer(in_last_name);
+              ^
+../src/test_database.cpp:53:8: error: jump to case label [-fpermissive]
+   case 5 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& composer’
+    Composer& composer = myDB.GetComposer(in_last_name);
+              ^
+../src/test_database.cpp:56:8: error: jump to case label [-fpermissive]
+   case 0 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& composer’
+    Composer& composer = myDB.GetComposer(in_last_name);
+              ^
+make: *** [src/test_database.o] Error 1
+21:01:16 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:01:17 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:01:17 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:01:17 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:09:36 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:09:36 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/test_database.cpp: In function ‘int main()’:
+../src/test_database.cpp:50:8: error: jump to case label [-fpermissive]
+   case 4 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer composer’
+    Composer composer = myDB.GetComposer(in_last_name);
+             ^
+../src/test_database.cpp:53:8: error: jump to case label [-fpermissive]
+   case 5 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer composer’
+    Composer composer = myDB.GetComposer(in_last_name);
+             ^
+../src/test_database.cpp:56:8: error: jump to case label [-fpermissive]
+   case 0 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer composer’
+    Composer composer = myDB.GetComposer(in_last_name);
+             ^
+make: *** [src/test_database.o] Error 1
+21:09:37 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:09:37 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:09:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:09:37 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:10:16 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:10:16 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/test_database.cpp: In function ‘int main()’:
+../src/test_database.cpp:50:8: error: jump to case label [-fpermissive]
+   case 4 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer comp’
+    Composer comp = myDB.GetComposer(in_last_name);
+             ^
+../src/test_database.cpp:53:8: error: jump to case label [-fpermissive]
+   case 5 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer comp’
+    Composer comp = myDB.GetComposer(in_last_name);
+             ^
+../src/test_database.cpp:56:8: error: jump to case label [-fpermissive]
+   case 0 :
+        ^
+../src/test_database.cpp:46:13: error:   crosses initialization of ‘Composer comp’
+    Composer comp = myDB.GetComposer(in_last_name);
+             ^
+make: *** [src/test_database.o] Error 1
+21:10:16 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:10:16 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:10:16 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:10:17 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:10:24 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:10:24 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/test_database.cpp: In function ‘int main()’:
+../src/test_database.cpp:50:8: error: jump to case label [-fpermissive]
+   case 4 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& comp’
+    Composer& comp = myDB.GetComposer(in_last_name);
+              ^
+../src/test_database.cpp:53:8: error: jump to case label [-fpermissive]
+   case 5 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& comp’
+    Composer& comp = myDB.GetComposer(in_last_name);
+              ^
+../src/test_database.cpp:56:8: error: jump to case label [-fpermissive]
+   case 0 :
+        ^
+../src/test_database.cpp:46:14: error:   crosses initialization of ‘Composer& comp’
+    Composer& comp = myDB.GetComposer(in_last_name);
+              ^
+make: *** [src/test_database.o] Error 1
+21:10:24 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:10:24 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:10:24 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:10:25 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:15:46 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:15:46 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+21:15:46 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:15:46 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:15:47 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:15:47 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:16:36 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:16:36 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+21:16:36 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:16:36 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:16:36 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:16:37 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:16:40 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+21:17:17 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:17:17 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+21:17:17 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:17:18 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:17:18 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:17:18 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:18:23 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+21:28:10 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:28:10 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:78:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:9:
+/usr/include/c++/4.8/bits/stl_algo.h: In instantiation of ‘_RandomAccessIterator std::__unguarded_partition(_RandomAccessIterator, _RandomAccessIterator, const _Tp&) [with _RandomAccessIterator = Composer*; _Tp = Composer]’:
+/usr/include/c++/4.8/bits/stl_algo.h:2283:70:   required from ‘_RandomAccessIterator std::__unguarded_partition_pivot(_RandomAccessIterator, _RandomAccessIterator) [with _RandomAccessIterator = Composer*]’
+/usr/include/c++/4.8/bits/stl_algo.h:2315:54:   required from ‘void std::__introsort_loop(_RandomAccessIterator, _RandomAccessIterator, _Size) [with _RandomAccessIterator = Composer*; _Size = long int]’
+/usr/include/c++/4.8/bits/stl_algo.h:5461:36:   required from ‘void std::sort(_RAIter, _RAIter) [with _RAIter = Composer*]’
+../src/Database.h:65:45:   required from here
+/usr/include/c++/4.8/bits/stl_algo.h:2245:19: error: passing ‘const Composer’ as ‘this’ argument of ‘bool Composer::operator<(const Composer&)’ discards qualifiers [-fpermissive]
+    while (__pivot < *__last)
+                   ^
+make: *** [src/test_database.o] Error 1
+21:28:10 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:28:10 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:28:10 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:28:10 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+21:32:25 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+21:32:25 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘void Database::DisplayByRank()’:
+../src/Database.h:65:59: error: a function-definition is not allowed here before ‘{’ token
+    bool operator < (const Composer& a, const Composer& b) { return a.ranking() < b.ranking();}
+                                                           ^
+make: *** [src/test_database.o] Error 1
+21:32:25 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+21:32:25 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+21:32:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+21:32:25 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:26:18 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:26:18 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘void Database::DisplayByRank()’:
+../src/Database.h:66:54: error: no matching function for call to ‘sort(Composer [100], Composer*, <unresolved overloaded function type>)’
+    sort(composers_, composers_+ next_slot_-1, CmpRank);
+                                                      ^
+../src/Database.h:66:54: note: candidates are:
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:9:
+/usr/include/c++/4.8/bits/stl_algo.h:5447:5: note: template<class _RAIter> void std::sort(_RAIter, _RAIter)
+     sort(_RandomAccessIterator __first, _RandomAccessIterator __last)
+     ^
+/usr/include/c++/4.8/bits/stl_algo.h:5447:5: note:   template argument deduction/substitution failed:
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:66:54: note:   candidate expects 2 arguments, 3 provided
+    sort(composers_, composers_+ next_slot_-1, CmpRank);
+                                                      ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:9:
+/usr/include/c++/4.8/bits/stl_algo.h:5483:5: note: void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = Composer*; _Compare = bool (Database::*)(const Composer&, const Composer&)]
+     sort(_RandomAccessIterator __first, _RandomAccessIterator __last,
+     ^
+/usr/include/c++/4.8/bits/stl_algo.h:5483:5: note:   no known conversion for argument 3 from ‘<unresolved overloaded function type>’ to ‘bool (Database::*)(const Composer&, const Composer&)’
+make: *** [src/test_database.o] Error 1
+22:26:19 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:26:19 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:26:19 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:26:19 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:30:20 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:30:20 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+../src/Database.h: In member function ‘void Database::DisplayByRank()’:
+../src/Database.h:66:54: error: no matching function for call to ‘sort(Composer [100], Composer*, <unresolved overloaded function type>)’
+    sort(composers_, composers_+ next_slot_-1, CmpRank);
+                                                      ^
+../src/Database.h:66:54: note: candidates are:
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:9:
+/usr/include/c++/4.8/bits/stl_algo.h:5447:5: note: template<class _RAIter> void std::sort(_RAIter, _RAIter)
+     sort(_RandomAccessIterator __first, _RandomAccessIterator __last)
+     ^
+/usr/include/c++/4.8/bits/stl_algo.h:5447:5: note:   template argument deduction/substitution failed:
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:66:54: note:   candidate expects 2 arguments, 3 provided
+    sort(composers_, composers_+ next_slot_-1, CmpRank);
+                                                      ^
+In file included from /usr/include/c++/4.8/algorithm:62:0,
+                 from ../src/Database.h:14,
+                 from ../src/test_database.cpp:9:
+/usr/include/c++/4.8/bits/stl_algo.h:5483:5: note: void std::sort(_RAIter, _RAIter, _Compare) [with _RAIter = Composer*; _Compare = bool (Database::*)(const Composer&, const Composer&)const]
+     sort(_RandomAccessIterator __first, _RandomAccessIterator __last,
+     ^
+/usr/include/c++/4.8/bits/stl_algo.h:5483:5: note:   no known conversion for argument 3 from ‘<unresolved overloaded function type>’ to ‘bool (Database::*)(const Composer&, const Composer&)const’
+make: *** [src/test_database.o] Error 1
+22:30:20 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:30:20 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:30:20 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:30:20 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:35:51 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:35:51 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:35:52 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:35:52 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:35:52 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:35:52 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:37:32 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:37:32 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:37:33 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:37:33 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:37:33 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:37:33 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:37:38 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+22:44:17 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:44:17 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:9:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:9:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:44:18 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:44:18 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:44:18 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:44:18 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:44:22 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+22:51:01 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:51:01 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+22:51:01 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:51:01 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:51:02 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:51:02 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:52:15 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:52:15 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:71:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:71:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:52:15 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:52:15 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:52:15 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:52:15 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:52:19 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:71:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:71:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:52:45 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:52:45 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+22:52:45 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:52:45 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:52:45 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:52:45 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:52:48 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:71:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:71:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:53:21 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:53:21 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.
+22:53:21 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:53:22 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:53:22 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:53:22 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:53:25 **** Incremental Build of configuration Debug for project BookStore ****
+make all 
+make: Nothing to be done for `all'.
+22:53:25 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+Building file: ../src/test_database.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_database.d" -MT"src/test_database.o" -o "src/test_database.o" "../src/test_database.cpp"
+In file included from ../src/Database.h:15:0,
+                 from ../src/test_database.cpp:71:
+../src/Composer.h:103:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  COMPOSER_H_
+         ^
+In file included from ../src/test_database.cpp:71:0:
+../src/Database.h:79:9: warning: extra tokens at end of #endif directive [enabled by default]
+ #endif  DATABASE_H_
+         ^
+Finished building: ../src/test_database.cpp
+ 
+Building target: ComposerBase
+Invoking: GCC C++ Linker
+g++  -o "ComposerBase"  ./src/test_database.o   
+Finished building target: ComposerBase
+ 
+22:53:25 **** Incremental Build of configuration Debug for project HW1 ****
+make all 
+make: Nothing to be done for `all'.
+22:53:25 **** Incremental Build of configuration Debug for project artillery ****
+make all 
+make: Nothing to be done for `all'.
+22:53:25 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+22:53:25 **** Incremental Build of configuration Debug for project time ****
+make all 
+make: Nothing to be done for `all'.
+22:53:27 **** Incremental Build of configuration Debug for project ComposerBase ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,23 @@
+/*
+ * BoolStore.cpp
+ *
+ *  Created on: Mar 26, 2017
+ *      Author: bingyu
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(){
+	string code;
+
+	do{
+		cout << "Bood code: ";
+		cin >> code;
+	}while (flag == 1)
+
+}
+
+

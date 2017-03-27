@@ -1,0 +1,31 @@
+/*
+ * BoolStore.cpp
+ *
+ *  Created on: Mar 26, 2017
+ *      Author: bingyu
+ */
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main(){
+	string code;
+	double price;
+	int flag = 1;
+	int num_hand, enroll;
+	bool imp, quality;
+
+	do{
+		cout << "Bood code: "; cin >> code;
+		cout << "Single price: "; cin >> price;
+		cout << "Num on hand: "; cin >> num_hand;
+		cout << "Prospectie enrollment: "; cin >> enroll;
+		cout << "1 for reqd / 0 for optional: "; cin >> imp;
+		cout << "1 for new / 0 for used: "; cin >> quality;
+	}while (flag == 1);
+
+}
+
+
